@@ -5,7 +5,7 @@ export default function Projects() {
     title: "PokeAPI App",
     description: "A React application that fetches and displays data from the PokeAPI, featuring filtering and detailed views.",
     technologies: ["React", "Vite", "CSS"],
-    link: "https://asook22.github.io/AppProject1/",// Replace with your URL
+    link: "https://github.com/ASook22/AmongTheTallGrass.git",
     image: "/portfolio/images/ATTG.png" // Replace with your image path
     },
   ];
