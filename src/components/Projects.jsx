@@ -2,23 +2,12 @@
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-featured online store with cart, payments, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      link: "#"
+    title: "PokeAPI App",
+    description: "A React application that fetches and displays data from the PokeAPI, featuring filtering and detailed views.",
+    technologies: ["React", "Vite", "CSS"],
+    link: "https://asook22.github.io/AppProject1/",// Replace with your URL
+    image: "/portfolio/images/ATTG.png" // Replace with your image path
     },
-    {
-      title: "Real-Time Dashboard",
-      description: "Interactive analytics dashboard with live data updates and charts.",
-      technologies: ["React", "Chart.js", "Firebase", "Tailwind CSS"],
-      link: "#"
-    },
-    {
-      title: "Portfolio Generator",
-      description: "Tool that helps developers create beautiful portfolios quickly.",
-      technologies: ["Next.js", "Vite", "Tailwind", "Supabase"],
-      link: "#"
-    }
   ];
 
   return (
@@ -33,8 +22,12 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div key={index} className="project-card">
               {/* Placeholder box instead of image */}
-              <div className="project-placeholder">
-                <span className="placeholder-text">{project.title}</span>
+                 <div className="project-image-container">
+                <img 
+                  src={project.image} 
+                  alt={`${project.title} screenshot`} 
+                  className="project-image" 
+                />
               </div>
 
               <div className="project-info">

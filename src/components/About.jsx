@@ -11,16 +11,16 @@ export default function About() {
         <div className="about-card">
           {/* Photo wrapper – no clipping, centered */}
           <div className="photo-wrapper">
-            <img
-              src="/images/AmritHeadshot2026.png"  // your file path
-              alt="Amrit Sooklal"
-              className="about-photo"
+            <img 
+              src="images/AmritHeadshot2026.png" 
+              alt="Amrit Sooklal Headshot" 
+              className="about-photo" 
             />
           </div>
 
           <div className="about-content">
             <p>
-              I’m a <strong>Front-End Developer</strong> and <strong>UI/UX Designer</strong> based in the <strong>Toronto area</strong>. Over the years, I’ve built a diverse skill set across modern front-end development, 
+              I’m a <strong>Front-End Developer</strong> based in the <strong>Toronto area</strong>. Over the years, I’ve built a diverse skill set across modern front-end development, 
               UX/UI prototyping, and a wide range of software tools and programming languages. Each project I work on benefits from this breadth of experience, 
               allowing me to bring a thoughtful and innovative perspective to both design and implementation.
             </p>

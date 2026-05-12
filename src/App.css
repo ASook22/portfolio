@@ -235,7 +235,7 @@ html, body {
 
 /* Section backgrounds */
 .projects-section { background: #121212;     }
-.contact-section  { background: #121212; }
+.contact-section  { background: #000000; }
 
 /* Container */
 .container {
@@ -456,6 +456,19 @@ h2 {
   margin: 0 0 1.2rem;
   color: #ddd;
 }
+
+.project-image {
+  width: 100%;
+  height: 200px; /* or your preferred height */
+  object-fit: cover; /* prevents the screenshot from looking squished */
+  display: block;
+}
+
+.project-image-container {
+  overflow: hidden;
+  border-radius: 8px 8px 0 0; /* optional: rounds top corners */
+}
+
 
 .tech-tags {
   display: flex;
