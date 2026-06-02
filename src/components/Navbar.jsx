@@ -38,7 +38,7 @@ export default function Navbar() {
           <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
           <li>
             <a
-              href="/documents/AmritSooklalResume2026.pdf"
+              href="/documents/Amrit_Sooklal_Resume2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="resume-btn"
